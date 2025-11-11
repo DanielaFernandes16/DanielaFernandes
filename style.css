@@ -1,0 +1,508 @@
+/*GERAL*/
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: inherit;
+    font-size: 15px;
+}
+
+/*TOPSITE*/
+.top-site{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    size: 18px;
+    size-adjust: 18px;
+}
+
+
+.menu a{
+    font-size: 18px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/*HERO*/
+.hero{
+    background-image: url(../images/agrupamentoxherois.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 200px;
+}
+
+h1{
+    opacity: 0;
+}
+
+/*INFO*/
+.info{
+    width: 50%;
+    align-content: center;
+    margin: 10px auto;
+}
+
+h2{
+    padding: 20px;
+    align-content: space-between;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    background-color:#7cb33e;
+    color: #ffffff;
+}
+
+.info img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.p{
+    padding: 20px;
+    font-size: 15px;
+}
+
+h3{
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*TITLE*/
+
+.title{
+    width: 100%;
+    align-content: center;
+    margin: 10px auto;
+}
+
+h2{
+    padding: 20px;
+    align-content: space-between;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    background-color:#7cb33e;
+    color: #ffffff;
+}
+
+/*BENEFITS*/
+
+.container{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+}
+
+.beni{
+    width: 40%;
+}
+
+.beni img{
+    width: 100%;
+}
+
+.beni header{
+    margin-top: 20px;
+}
+
+.beni h4{
+    color: black;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.beni p{
+    font-size: 15px;
+    margin: auto;
+    padding: 10px;
+    width: 83%;
+}
+
+/*INSC*/
+.insc{
+    background-color: #7cb33e;
+    pad: 20px;
+}
+
+h2{
+    padding: 20px;
+    align-content: space-between;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    background-color:#7cb33e;
+    color: #ffffff;
+}
+
+.cont{
+    width: 42%;
+    align-content: center;
+    margin:auto;
+}
+
+.oql{
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+h6{
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.oql img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.oql p{
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 450;
+}
+
+.send{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: #265200;
+    color: #ffffff;
+    size: 300px;
+    padding: 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.btn:hover {
+    background-color:#51782f;
+    transition: 0.5s;
+  }
+
+
+
+.mascot img{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/*CONTACTOS*/
+
+.contact h6{
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+}
+
+.con{
+    width: 40%;
+}
+
+.con header{
+    margin-top: 20px;
+}
+
+.con h4{
+    color: black;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.con p{
+    font-size: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 83%;
+    text-align: center;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/*Definição de media queries*/
+
+@media all and (max-width:768px){
+
+.top-site{
+    padding: 5px;
+}
+
+.logo{
+    align-content: center;
+    margin: auto;
+}
+
+.menu a{
+    display: none;
+}
+
+.hero{
+    padding: 150px;
+    background-position: center;
+}
+
+.info{
+    width: 65%;
+}
+
+h2{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.info p{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    align-content: center;
+}
+
+.benefits{
+    display: inline-block;
+    margin: auto;
+    margin-left: 150px;
+}
+
+.beni{
+    width: 60%;
+}
+
+.beni header{
+    margin-top: 10px;
+}
+
+.beni h4{
+    font-size: 18px;
+}
+
+.beni p{
+    font-size: 14px;
+}
+
+.cont{
+    width: 60%;
+}
+
+h6{
+    font-size: 25px;
+}
+
+.oql p{
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 15px;
+}
+
+
+.mascot img{
+    width: 60%;
+}
+
+.contact h6{
+    font-size: 25px;
+}
+
+.con{
+    width: 40%;
+}
+
+.con header{
+    margin-top: 20px;
+}
+
+.con p{
+    font-size: 14px;
+}
+
+footer{
+    font-size: 12px;
+}
+
+}
+
+@media all and (max-width:480px){
+
+.top-site{
+    padding: 1px;
+}
+
+
+.logo img{
+    width: 100%;
+}
+
+.menu a{
+    display: none;
+}
+
+.hero{
+    background-position: center;
+    padding: 100px;
+    background-size: cover;
+}
+
+.info{
+    width: 65%;
+}
+
+h2{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.info p{
+    font-size: 11px;
+}
+
+h3{
+    font-size: 17px;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    align-content: center;
+}
+
+.benefits{
+    display: inline-block;
+    margin: auto;
+    margin-left: 70px;
+}
+
+.beni{
+    width: 70%;
+}
+
+.beni header{
+    margin-top: 5px;
+}
+
+.beni h4{
+    font-size: 15px;
+}
+
+.beni p{
+    font-size: 11px;
+    width: 80%;
+    text-align: justify;
+    padding: 5px;
+}
+
+.cont{
+    width: 60%;
+}
+
+h6{
+    font-size: 18px;
+}
+
+.oql p{
+    font-size: 11px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.mascot img{
+    width: 70%;
+}
+
+.contact h6{
+    font-size: 20px;
+}
+
+.con{
+    width: 60%;
+}
+
+.con header{
+    margin-top: 10px;
+}
+
+.con p{
+    font-size: 11px;
+}
+
+footer{
+    font-size: 9px;
+}
+
+}
